@@ -18,7 +18,7 @@ We have conducted evaluation experiments on the virtual synthesis datasets using
 
 # 3D human body reconstruction methods
 The Unity engine as well as the 3D human body reconstruction methods will be released soon.\
-You can install the environment required for running the four models through **[requirements.txt]**, and the usage methods can be obtained in the methods of the original models respectively.
+You can install the environment required for running the four models through **[requirements.txt](https://github.com/xuezhen2018/image-person-removal-data-synthesie/blob/main/requirements.txt)**, and the usage methods can be obtained in the methods of the original models respectively:[CTSDG](https://github.com/xiefan-guo/ctsdg), [AOT-GAN](https://github.com/researchmm/AOT-GAN-for-Inpainting), [SLBR](https://github.com/bcmi/SLBR-Visible-Watermark-Removal), [MEDEF](https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE) .
 
 # Acknowledgement
 This repo is based on [CTSDG](https://github.com/xiefan-guo/ctsdg), [AOT-GAN](https://github.com/researchmm/AOT-GAN-for-Inpainting), [SLBR](https://github.com/bcmi/SLBR-Visible-Watermark-Removal), [MEDEF](https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE) and [PensonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset). Many thanks to the excellent repo.
