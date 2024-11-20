@@ -2,7 +2,7 @@
 This repository contains the evaluation code and dataset for our paper "Evaluation of Image Person Removal Tasks: When Data Synthesis Encounters 3D Reconstruction".
 
 # Synthesized Dataset
-We are excited to share a collection of four datasets focused on 3D character virtual synthesis, each curated with a distinct approach and dataset size. These datasets are carefully split into training and testing sets in a 7:3 ratio to support efficient machine learning model training and validation.Please use BaiduDisk to download the following dataset.\
+We are excited to share a collection of four datasets focused on 3D character virtual synthesis, each curated with a distinct approach and dataset size. These datasets are carefully split into training and testing sets in a 7:3 ratio to support efficient machine learning model training and validation.Please use BaiduDisk to download the following dataset.
 
 **VS_3d_500: Manually Collected 3D Reconstructed Characters**\
 The VS_3d_500 dataset contains 500 images of 3D reconstructed characters that have been manually collected.**Link:** [VS_3d_500](https://pan.baidu.com/s/1x-aiuX5OS-nKZXCECqNRVw?pwd=je92)\
