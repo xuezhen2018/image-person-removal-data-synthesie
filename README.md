@@ -14,7 +14,11 @@ The VS_3dBL_500 dataset, derived from the VS_3d_7500 dataset through critical se
 Built upon the VS_3d_500 dataset, the VS_3dH_500 dataset includes 500 images that have undergone a harmonization process through an image coordination network to achieve consistent lighting. **Link:** Download [VS_3dH_500](https://pan.baidu.com/s/1-cLuTHrH_TmHbvSTgSVAsQ?pwd=dwv7)
 
 # Code
-We have conducted evaluation experiments on the virtual synthesis datasets using four adjusted network models that are compliant with the person removal framework: CTSDG_PR, AOT-GAN_PR, SLBR_PR, and MEDEF_PR. 
+We have conducted evaluation experiments on the virtual synthesis datasets using four adjusted network models that are compliant with the person removal framework: CTSDG_PR, AOT-GAN_PR, SLBR_PR, and MEDEF_PR. \
+
+# 3D human body reconstruction methods
+The Unity engine as well as the 3D human body reconstruction methods will be released soon.\
+You can install the environment required for running the four models through **[requirements.txt]**, and the usage methods can be obtained in the methods of the original models respectively.
 
 # Acknowledgement
 This repo is based on [CTSDG](https://github.com/xiefan-guo/ctsdg), [AOT-GAN](https://github.com/researchmm/AOT-GAN-for-Inpainting), [SLBR](https://github.com/bcmi/SLBR-Visible-Watermark-Removal), [MEDEF](https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE) and [PensonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset). Many thanks to the excellent repo.
