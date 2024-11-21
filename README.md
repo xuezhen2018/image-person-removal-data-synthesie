@@ -1,5 +1,5 @@
 # Image-person-removal-data-synthesie
-This repository contains the code and dataset for our paper "Evaluation of Image Person Removal Tasks: When Data Synthesis Encounters 3D Reconstruction".
+This repository contains the code and dataset for our paper "Enhancing Image Person Removal Tasks through 3D Reconstruction and Data Synthesis".
 
 # Synthesized Dataset
 We are excited to share a collection of four datasets focused on 3D character virtual synthesis, each curated with a distinct approach and dataset size. These datasets are carefully split into training and testing sets in a 7:3 ratio to support efficient machine learning model training and validation.
