@@ -124,7 +124,7 @@ The file that needs to be modified for parameters is located at `SLBR_PR/test_op
   cd MEDFE_PR\
   python test.py \
   ```
-## Result
+## 5.Result
 coming soon....
 
 # 3D human body reconstruction methods
