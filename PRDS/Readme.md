@@ -13,7 +13,8 @@
 
 ## Project
 
-Please use Baidu Netdisk to download the Unity project. Once downloaded, you can open it directly with Unity. Download link:
+Please use Baidu Netdisk to download the Unity project. Once downloaded, you can open it directly with Unity. [Download link](https://pan.baidu.com/s/1eb6Xqyn5PCImd-3uhVV90Q?pwd=qcsd
+)
 
 ## Make the Dataset（full light dataset）
 
@@ -21,7 +22,7 @@ Please use Baidu Netdisk to download the Unity project. Once downloaded, you can
 
 2. open the project in `unity`
 
-3. 这里设置了两个对象，一个用来设置生成训练集的人物和背景图，一个用来设置验证集的人物和背景图，分别是7500val和7500train.
+3. Here, two objects are set up: one for configuring the character and background images for the training set, and the other for the validation set, which are `7500val` and `7500train` respectively.
    
     ![unity1.png](unity1.png)
     
