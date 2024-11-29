@@ -128,7 +128,7 @@ The file that needs to be modified for parameters is located at `SLBR_PR/test_op
 coming soon....
 
 # Data Set Creation Method
-We refer to this synthesis method as PRDS (Person-Removal Data Synthesis), and a detailed introduction to this method can be found in [PRDS](https://github.com/xuezhen2018/image-person-removal-data-synthesie/tree/main/PRDS).\
+We refer to this synthesis method as PRDS (Person-Removal Data Synthesis), and a detailed introduction to this method can be found in [PRDS](https://github.com/xuezhen2018/image-person-removal-data-synthesie/tree/main/PRDS).
 
 # Acknowledgement
 This repo is based on [CTSDG](https://github.com/xiefan-guo/ctsdg), [AOT-GAN](https://github.com/researchmm/AOT-GAN-for-Inpainting), [SLBR](https://github.com/bcmi/SLBR-Visible-Watermark-Removal), [MEDFE](https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE) and [PensonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset). Many thanks to the excellent repo.
