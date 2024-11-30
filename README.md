@@ -1,4 +1,4 @@
-# Image-person-removal-data-synthesie
+![table2](https://github.com/user-attachments/assets/a3980eda-2bff-421c-be28-e508609fd2d7)# Image-person-removal-data-synthesie
 This repository contains the code and dataset for our paper "Enhancing Image Person Removal Tasks through 3D Reconstruction and Data Synthesis".
 # Prerequisites
 python >= 3.6\
@@ -125,7 +125,14 @@ The file that needs to be modified for parameters is located at `SLBR_PR/test_op
   python test.py \
   ```
 ## 5.Result
-coming soon....
+In this part, we performed cross evaluation, where several object removal models are selected and trained on different training samples. Then, these models are tested on various test samples. Experimental results are summarized in Table 1.\
+`RS, VSv, and VSr(VS_3d_500)` represent datasets created using real person materials, virtual character models, and 3D reconstructed character models under fixed lighting conditions, respectively. The first two are derived from datasets that were produced in our previous work.`Place2` is commonly used as a dataset for training in image inpainting projects. Among these four baseline models, all except for SLBR have been trained with models derived from Place2. The table provided allows for a comparison that demonstrates the method and dataset proposed in this paper significantly enhance the person removal effects compared to existing image inpainting methods. The relatively poor performance of CTSDG may be attributed to a lack of sufficient data, as `CTSDG` is a GAN (Generative Adversarial Network) model that requires a substantial amount of data for training, and our dataset is much smaller in scale compared to Place2. Experiments validating the stability of the network models are presented in our paper.\
+**Table 1** Cross evaluation of image person removal models on various datasets.
+![table1](https://github.com/user-attachments/assets/7d49ca39-fd94-4f9d-a8e8-88b0e560751c)
+Here, we further analyze the factors that affect the quality of the 3D reconstruction dataset. As shown in Table 2, we use the aforementioned four models as the training sets and VS_3d_500 as the validation set. We have examined three conditions, including image harmonization, lighting optimization, and the size of the dataset. We found that when the amount of data is small, the effect of image harmonization is not significant and may even be counterproductive. We speculate that under fixed lighting conditions, the use of image harmonization may lead to a more severe loss of data modalities. Secondly, lighting optimization continues to be effective, which is better than using fixed lighting conditions, with or without image harmonization, at the same level of data. Finally, the number of images in the synthesized data significantly impacts the training effect, and an increase in the volume of data means a significant enhancement in the training effect.
+**Table 2** Ablation study on the 3D reconstruction dataset. 
+![table2](https://github.com/user-attachments/assets/04e3952e-7446-4b09-bb5a-02173c9b31d0)
+
 
 # Data Set Creation Method
 We refer to this synthesis method as PRDS (Person-Removal Data Synthesis), and a detailed introduction to this method can be found in [PRDS](https://github.com/xuezhen2018/image-person-removal-data-synthesie/tree/main/PRDS).
